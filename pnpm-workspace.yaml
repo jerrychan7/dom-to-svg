@@ -1,0 +1,7 @@
+allowBuilds:
+  core-js: true
+  core-js-pure: true
+  deasync: true
+  husky: true
+  parcel-bundler: true
+  puppeteer: true

@@ -5,3 +5,5 @@ lib/
 dist/
 src/test/snapshots/*.png
 src/test/snapshots/*.svg
+
+/.claude/
