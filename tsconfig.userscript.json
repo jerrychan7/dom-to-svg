@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "ES2019",
+		"module": "ES2020",
+		"moduleResolution": "node",
+		"outDir": "userscript",
+		"rootDir": ".",
+		"sourceMap": false,
+		"declaration": false,
+		"declarationMap": false,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"strict": true,
+		"noUnusedLocals": false,
+		"skipLibCheck": true,
+		"noUncheckedIndexedAccess": true,
+		"paths": {
+			"*": ["./src/types/*", "./*"],
+		},
+	},
+	"include": ["src/**/*", "userscript/**/*"],
+	"exclude": ["src/test/**/*"],
+}
